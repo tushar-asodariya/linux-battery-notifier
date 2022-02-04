@@ -25,15 +25,15 @@ while true; do
             notify-send -u critical "Please, kindly plug-in your AC adapter" "Battery level: ${battery_level}%" -i battery-caution
             # break
             # sleep 180
-        elif [ $battery_level -ge 30 ]; then
+        elif [ $battery_level -le 30 ]; then
             notify-send -u critical "Charge it man its ${battery_level}%" -i battery-caution
             # break
             # sleep 180
-        elif [ $battery_level -ge 40 ]; then
+        elif [ $battery_level -le 40 ]; then
             notify-send -u critical "Its ${battery_level}%" -i face-angel
             # break
             # sleep 180
-        elif [ $battery_level -ge 95 ]; then
+        elif [ $battery_level -le 95 ]; then
             notify-send -u critical "Thank you!!!" "You did an excellent job, Keep it up." -i face-angel
             sleep 300 # sleep as charging is above 95
         fi
