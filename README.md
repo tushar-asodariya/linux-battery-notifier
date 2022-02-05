@@ -1,5 +1,6 @@
 # linux-battery-notifier
-Sends notification when battery is above 95 to unplug the AC adapter and when battery is at 40, 30 and below 20 to plug-in AC adapter again.
+
+Sends notification when battery is above 95 to unplug the AC adapter and when battery is at 30, 40 and below 20 to plug-in AC adapter again.
 
 ## Steps to run this
 
