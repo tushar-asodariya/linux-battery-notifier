@@ -26,7 +26,7 @@ while true; do
             # break
             # sleep 180
         elif [ $battery_level == 30 ]; then
-            notify-send -u critical "Charge it man its ${battery_level}%" -i battery-caution
+            notify-send -u critical "Please keep your AC adapter nearby ${battery_level}%" -i battery-caution
             # break
             # sleep 180
         elif [ $battery_level == 40 ]; then
